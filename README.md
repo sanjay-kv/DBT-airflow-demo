@@ -16,7 +16,7 @@ contributor has failed, or succeeded? How can you enable shared visibility over 
 
 One way to host dbt projects and orchestrate dbt tasks is via Apache Airflow. In its simplest form, an Airflow DAG
 that will build and test data models will consist of two tasks, one that executes `dbt run` command followed by an 
-Airflow task that executes `dbt test`. 
+Airflow task that executes `dbt test`. .
 
 <img style="display: block; margin: 0 auto" src="docs/blob/dbt_run_test_dag.png" alt="test">
 
@@ -165,3 +165,4 @@ with DAG(
     t1 >> tg >> t2
 
 ```
+DBT model completed successfully.
