@@ -165,4 +165,3 @@ with DAG(
     t1 >> tg >> t2
 
 ```
-DBT model completed successfully.
